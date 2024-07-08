@@ -22,6 +22,8 @@ const _Input = React.forwardRef<HTMLInputElement, InputProps>(
   }
 );
 
+_Input.displayName = "_Input";
+
 interface Props extends InputProps {
   container?: React.HTMLAttributes<HTMLDivElement>;
   leftElement?: React.ReactNode;

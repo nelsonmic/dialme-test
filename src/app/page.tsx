@@ -13,7 +13,7 @@ export default function Home() {
         <Column className="border border-stone-900 rounded-md flex-1 bg-black p-4 gap-6">
           <Column className="gap-2">
             <H className="text-lg text-gray-200">Create Your Chat</H>
-            <P className="text-gray-400 text-sm">It's free and take 1 min to setup your account <br />Offer a direct access to your DM choose your price you will be able to change that anytime you want</P>
+            <P className="text-gray-400 text-sm">It&apos;s free and take 1 min to setup your account <br />Offer a direct access to your DM choose your price you will be able to change that anytime you want</P>
           </Column>
           <CreateChatForm />
         </Column>
